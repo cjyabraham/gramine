@@ -2,10 +2,15 @@
 title: Gramine
 showHeader: false
 ---
+{{< columns count=2 >}}
+{{< column >}}
+ <img
+    src="/img/gramine-logo-dark.svg"
+    width="400"
+    alt="Gramine logo"
+    loading="lazy"
+    >
 
-{{< spacer 100 >}}
-
-{{< img src="/img/gramine-logo-dark.svg" alt="Gramine logo" width=400 >}}
 
 ## A Library OS for Unmodified Applications
 
@@ -13,8 +18,21 @@ showHeader: false
 Open-Source community project driven by a core team of contributors. Previously Graphene.
 {{< /intro >}}
 
-{{< button link="https://github.com/gramineproject" text="GitHub" >}}
-{{< button link="https://gramine.readthedocs.io/en/latest/" style="secondary" text="Docs" >}}
+{{< button link="https://github.com/gramineproject" text="GitHub" >}}{{< button link="https://gramine.readthedocs.io/en/latest/" style="secondary" text="Docs" >}}
+
+{{< /column >}}
+{{< column >}}
+{{< spacer >}}
+<img
+    src="/img/blob.jpg"
+    width=""
+    height=""
+    alt="Circuits"
+    loading="lazy"
+    >
+
+{{< /column >}}
+{{< /columns >}}
 
 ## A few words about Gramine
 
