@@ -2,8 +2,8 @@ en:
   languageName: English
   weight: 1
   ### copyright (markdown can be used) ###
-  copyright: "Copyright &copy; {{< current_year >}} Company Name. All Rights Reserved. [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) for Hugo by [CNCF](https://www.cncf.io)."
-  title: "Site Title"
+  copyright: "Copyright &copy; {{< current_year >}} Linux Foundation. All Rights Reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage page](https://www.linuxfoundation.org/legal/trademark-usage). Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/legal/privacy-policy) and [Terms of Use](https://www.linuxfoundation.org/legal/terms)."
+  title: "Gramine"
   params:
     description: "Site Description"
     ### accessibility ###
