@@ -1,5 +1,7 @@
 ---
 title: Contact Us
+date: 2024-05-28T17:54:58+07:00
+draft: false
 ---
 
 ### Did you find some issues to fix?

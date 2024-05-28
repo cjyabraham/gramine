@@ -2,6 +2,8 @@
 title: Gramine
 showHeader: false
 layout: single
+date: 2024-05-28T17:54:58+07:00
+draft: false
 ---
 {{< columns count=2 >}}
 {{< column >}}
