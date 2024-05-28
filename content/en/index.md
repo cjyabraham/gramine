@@ -1,6 +1,7 @@
 ---
 title: Gramine
 showHeader: false
+layout: single
 ---
 {{< columns count=2 >}}
 {{< column >}}

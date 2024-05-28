@@ -1,6 +1,3 @@
 ---
-title: "Blog"
-description: ""
+title: Blog
 ---
-
-Welcome to our blog.
