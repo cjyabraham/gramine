@@ -1,8 +1,6 @@
 ---
 title: Maintainers
 description: The people behind Gramine
-date: 2024-05-28T17:54:58+07:00
-draft: false
 ---
 {{< intro >}}
 The people behind Gramine
