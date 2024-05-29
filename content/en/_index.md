@@ -43,25 +43,11 @@ Applications programmed for one system often do not work on another. Gramine bri
 
 Applications can benefit from confidentiality and integrity guarantees of Intel SGX, but developers need to be very skilled for effective partitioning and code modification for Intel SGX environment. Gramine runs unmodified applications inside Intel SGX. It supports dynamically loaded libraries, runtime linking, multi-process abstractions, and file authentication. For additional security, Gramine performs cryptographic and semantic checks at untrusted host interface. Developers provide a manifest file to configure the application environment and isolation policies, Gramine automatically does the rest.
 
-{{< columns count=2 >}}
-{{< column >}}
-<img
-    src="/img/diagram_reg_integration.svg"
-    alt="Regular integration of Intel SGX"
-    loading="lazy"
-    >
-<figcaption>Regular integration of Intel SGX</figcaption>
-{{< /column >}}
-{{< column >}}
-  <img
-    src="/img/diagram_gramine_integration.svg"
-    alt="Integration of Intel SGX with Gramine"
-    loading="lazy"
-    >
-<figcaption>Integration of Intel SGX with Gramine</figcaption>
-{{< /column >}}
-{{< /columns >}}
-
+{{< spacer 40 >}}
+{{< img width=900 src="/img/diagram_reg_integration.svg" alt="Regular integration of Intel SGX" caption="Regular integration of Intel SGX">}}
+{{< spacer 60 >}}
+{{< img width=600 src="/img/diagram_gramine_integration.svg" alt="Integration of Intel SGX with Gramine" caption="Integration of Intel SGX with Gramine">}}
+{{< spacer >}}
 
 The commitment behind Gramine Graphene started as a research project at Stony Brook University, led by Chia-Che Tsai and Don Porter. Over time, scientists at other universities and labs have contributed to Graphene to accelerate their research on emerging hardware platforms. In 2015, Intel Labs recognized the potential for Graphene to be an open-source compatibility layer for Intel SGX, and has contributed to Graphene development since. Golem and Invisible Things Lab (ITL) have identified similarly opportunity for Graphene to play a huge role in the decentralized ecosystem, where data integrity, confidentiality, and security are cornerstones to the robust development of infrastructure and applications.
 
