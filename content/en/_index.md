@@ -5,13 +5,8 @@ layout: single
 ---
 {{< columns count=2 >}}
 {{< column >}}
- <img
-    src="/img/gramine-logo-dark.svg"
-    width="400"
-    alt="Gramine logo"
-    loading="lazy"
-    >
 
+{{< img src="/img/gramine-logo-dark.svg" width=400 alt="Gramine logo" >}}
 
 ## A Library OS for Unmodified Applications
 
@@ -24,13 +19,8 @@ Open-Source community project driven by a core team of contributors. Previously 
 {{< /column >}}
 {{< column >}}
 {{< spacer >}}
-<img
-    src="/img/blob.jpg"
-    width=""
-    height=""
-    alt="Circuits"
-    loading="lazy"
-    >
+
+{{< img src="/img/blob.jpg" alt="Circuits" >}}
 
 {{< /column >}}
 {{< /columns >}}
@@ -57,18 +47,18 @@ Driving Graphene and ensuring its usability is part of Golem's commitment. Today
 
 {{< columns count=3 >}}
 {{< column >}}
-<img src="/img/intel.svg" width=200 alt="Intel logo">
+{{< img src="/img/intel.svg" width=200 alt="Intel logo" >}}
 {{< /column >}}
 {{< column >}}
-<img src="/img/golem.svg" width=200 alt="Golem logo">
+{{< img src="/img/golem.svg" width=200 alt="Golem logo" >}}
 {{< /column >}}
 {{< column >}}
-<img src="/img/invisible_things.svg" width=200 alt="Invisible Things logo">
+{{< img src="/img/invisible_things.svg" width=200 alt="Invisible Things logo" >}}
 {{< /column >}}
 {{< column >}}
-<img src="/img/unc.svg" width=200 alt="UNC logo">
+{{< img src="/img/unc.svg" width=200 alt="UNC logo" >}}
 {{< /column >}}
 {{< column >}}
-<img src="/img/texas_am.svg" width=200 alt="Texas A&M logo">
+{{< img src="/img/texas_am.svg" width=200 alt="Texas A&M logo" >}}
 {{< /column >}}
 {{< /columns >}}

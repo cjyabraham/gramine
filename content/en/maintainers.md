@@ -12,53 +12,53 @@ In 2018, the project adopted a formal working group and project policies, in ord
 
 {{< cards count=4 >}}
 {{< card >}}
-<img src="/img/people/mkow-200w.jpg" width=225 alt="Michał Kowalczyk">
-<h4>Michał Kowalczyk</h4>
+{{< img src="/img/people/mkow-200w.jpg" width=225 alt="Michał Kowalczyk" >}}
+#### Michał Kowalczyk
 ITL/Golem
 {{< /card >}}
 {{< card >}}
-<img src="/img/people/isaku-200w.jpg" width=225 alt="Isaku Yamahata">
-<h4>Isaku Yamahata</h4>
+{{< img src="/img/people/isaku-200w.jpg" width=225 alt="Isaku Yamahata" >}}
+#### Isaku Yamahata
 Intel
 {{< /card >}}
 {{< card >}}
-<img src="/img/people/porter-don-0922-edit-1-copy-200w.png" width=225 alt="Don Porter">
-<h4>Don Porter</h4>
+{{< img src="/img/people/porter-don-0922-edit-1-copy-200w.png" width=225 alt="Don Porter" >}}
+#### Don Porter
 UNC/Fortanix
 {{< /card >}}
 {{< card >}}
-<img src="/img/people/me-200w.jpg" width=225 alt="Chia-Che Tsai">
-<h4>Chia-Che Tsai</h4>
+{{< img src="/img/people/me-200w.jpg" width=225 alt="Chia-Che Tsai" >}}
+#### Chia-Che Tsai
 Texas A&M University
 {{< /card >}}
 {{< card >}}
-<img src="/img/people/dmitrii_kuvaiskii-2-200w.jpg" width=225 alt="Dmitrii Kuvaiskii">
-<h4>Dmitrii Kuvaiskii</h4>
+{{< img src="/img/people/dmitrii_kuvaiskii-2-200w.jpg" width=225 alt="Dmitrii Kuvaiskii" >}}
+#### Dmitrii Kuvaiskii
 Intel
 {{< /card >}}
 {{< card >}}
-<img src="/img/people/mona-200w.jpg" width=225 alt="Mona Vij">
-<h4>Mona Vij</h4>
+{{< img src="/img/people/mona-200w.jpg" width=225 alt="Mona Vij" >}}
+#### Mona Vij
 Intel
 {{< /card >}}
 {{< card >}}
-<img src="/img/people/1_z4tsnep78zvqyo-i0cpfug-200w.jpg" width=225 alt="Łukasz Gleń">
-<h4>Łukasz Gleń</h4>
+{{< img src="/img/people/1_z4tsnep78zvqyo-i0cpfug-200w.jpg" width=225 alt="Łukasz Gleń" >}}
+#### Łukasz Gleń
 Golem
 {{< /card >}}
 {{< card >}}
-<img src="/img/people/generic-person.jpg" width=225 alt="Borys Popławski">
-<h4>Borys Popławski</h4>
+{{< img src="/img/people/generic-person.jpg" width=225 alt="Borys Popławski" >}}
+#### Borys Popławski
 ITL/intel
 {{< /card >}}
 {{< card >}}
-<img src="/img/people/generic-person.jpg" width=225 alt="Wojciech Porczyk">
-<h4>Wojciech Porczyk</h4>
+{{< img src="/img/people/generic-person.jpg" width=225 alt="Wojciech Porczyk" >}}
+#### Wojciech Porczyk
 ITL/intel
 {{< /card >}}
 {{< card >}}
-<img src="/img/people/generic-person.jpg" width=225 alt="Paweł Marczewski">
-<h4>Paweł Marczewski</h4>
+{{< img src="/img/people/generic-person.jpg" width=225 alt="Paweł Marczewski" >}}
+#### Paweł Marczewski
 ITL/intel
 {{< /card >}}
 
