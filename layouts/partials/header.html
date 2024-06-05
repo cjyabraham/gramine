@@ -20,7 +20,8 @@
             <ul class="main-menu__wrapper">
                 {{ range . }}
                 <li class="top-menu-item{{ if .HasChildren }} menu-item-has-children{{ end }}">
-                    <a href="{{ if .HasChildren }}#{{ else }}{{ .URL | relLangURL }}{{ end }}" class="menu-link">{{
+                    <a href="{{ if .HasChildren }}#{{ else }}{{ .URL | relLangURL }}{{ end }}" 
+                        class="menu-link{{ if strings.HasPrefix .URL "http" }} external-link{{ end }}">{{
                         .Name }}</a>
                     {{ if .HasChildren }}
                     <div class="sub-menu">
