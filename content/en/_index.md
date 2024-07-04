@@ -6,7 +6,7 @@ layout: single
 {{< columns count=2 >}}
 {{< column >}}
 
-{{< img src="/img/gramine-logo-dark.svg" width=400 alt="Gramine logo" >}}
+{{< img src="/img/gramine-logo-dark.svg" width=400 height="113" alt="Gramine logo" >}}
 
 ## A Library OS for Unmodified Applications
 
@@ -20,7 +20,7 @@ Open-Source community project driven by a core team of contributors. Previously 
 {{< column >}}
 {{< spacer >}}
 
-{{< img src="/img/blob.jpg" alt="Circuits" >}}
+{{< img src="/img/blob.jpg" alt="Circuits" width="582" >}}
 
 {{< /column >}}
 {{< /columns >}}
