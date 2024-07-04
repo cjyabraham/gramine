@@ -83,9 +83,8 @@ In SGX mode, however, things were not looking as good. It turns out that `perf`
 will assign all time spent inside an SGX enclave to a function called
 `async_exit_pointer`:
 
-![Screenshot of perf report for SGX enclave. Most time is spent in async_exit_pointer.](perf-report-aex.png)
+{{< img src="perf-report-aex.png" caption="Note that in the screenshot, `loader` is the name of the main Gramine binary." alt="Screenshot of perf report for SGX enclave. Most time is spent in async_exit_pointer.">}}
 
-_Note that in the screenshot, `loader` is the name of the main Gramine binary._
 
 As explained in the [previous article about GDB](/blog/gdb-support-in-gramine/), Async Exit Pointer (AEP)
 is where the process ends up when enclave execution is interrupted. It turns out
@@ -286,9 +285,8 @@ will need to compile Gramine in debug mode, and add some options to the
 manifest. Then, running an application in Gramine will produce a file that can
 be opened by `perf report`.
 
-![Screenshot of perf report, with in-enclave functions visible.](perf-report-sgx.png)
 
-_The above report shows functions executed inside the SGX enclave. The top entry, `slow`, is a function that I added to the application: it contains a long-running loop. Functions belonging to `libpal.so` and `libsysdb.so` come from the two main components of Gramine: PAL and LibOS, respectively._
+{{< img src="perf-report-sgx.png" caption="The above report shows functions executed inside the SGX enclave. The top entry, `slow`, is a function that I added to the application: it contains a long-running loop. Functions belonging to `libpal.so` and `libsysdb.so` come from the two main components of Gramine: PAL and LibOS, respectively." alt="Screenshot of perf report, with in-enclave functions visible.">}}
 
 The SGX profiler turned out to be pretty useful: it allowed us to track down
 various problems that appeared only in SGX mode (and, as such, could not be
